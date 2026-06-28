@@ -2,9 +2,8 @@
 
 ## Week 1 & 2 – HTML & CSS Fundamentals
 
-What i Learned 
-  
-  &darr;
+### What i Learned:
+
 ### HTML:
 - HTML document structure
 - Headings and paragraphs
@@ -30,9 +29,8 @@ What i Learned
   - Modified past buttons using padding
 - Text Styles 
 
-### Practice
-- Built a simple personal webpage
-- Practiced nesting elements
+### Extra
+- Changes CSS from internal to external
 
 ### Resources
 - YouTube: *SuperSimpleDev* - HTML & CSS Full Course - Beginner to Pro

@@ -14,7 +14,7 @@ This repository documents my progress while learning Full Stack Development.
 
 ### Frontend
 - [x] HTML
-- [ ] CSS
+- [x] CSS
 - [ ] JavaScript
 - [ ] React
 

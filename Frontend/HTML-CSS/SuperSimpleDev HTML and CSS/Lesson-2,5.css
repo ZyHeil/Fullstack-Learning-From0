@@ -1,0 +1,31 @@
+.h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.price {
+  color: yellowgreen;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+/* Add to Cart button */
+.Cart {
+  height: 28px;
+  width: 110px;
+  border-radius: 14px;
+  background-color: yellow;
+  border: none;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+/* Buy now Button */
+.Buy {
+  height: 28px;
+  width: 110px;
+  border-radius: 14px;
+  background-color: rgb(0, 173, 0);
+  border: none;
+  cursor: pointer;
+}

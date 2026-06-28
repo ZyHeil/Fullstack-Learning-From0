@@ -1,0 +1,110 @@
+/* Button 1 */
+.Opacity {
+  background-color: black;
+  color: white;
+  border: none;
+  height: 36px;
+  width: 120px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.Opacity:hover {
+  opacity: 0.8;
+}
+
+.Opacity:active {
+  opacity: 0.65;
+}
+
+/* Button 2 */
+
+.Backcolor {
+  background-color: rgb(218, 255, 144);
+  border: none;
+  height: 36px;
+  width: 185px;
+  border-radius: 18px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.Backcolor:hover {
+  background-color: rgb(168, 198, 106);
+  transition: background-color 0.15s;
+}
+
+.Backcolor:active {
+  background-color: rgb(143, 168, 96);
+}
+
+/* Button 3 */
+.Shadow {
+  background-color: rgb(19, 160, 19);
+  color: rgb(255, 255, 255);
+  border: none;
+  height: 36px;
+  width: 95px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: box-shadow 0.15s;
+}
+
+.Shadow:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Shadow:active {
+  background-color: rgb(18, 145, 18);
+}
+
+/* Button 4 */
+.Textcolor {
+  height: 36px;
+  width: 110px;
+  border: solid rgb(29, 169, 239);
+  border-radius: 2px;
+  border-width: 1.32px;
+  color: rgb(29, 169, 239);
+  transition: color 0.15s;
+  margin-bottom: 20px;
+}
+
+.Textcolor:hover {
+  background-color: rgb(29, 169, 239);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.Textcolor:active {
+  background-color: rgb(23, 142, 201);
+}
+
+/* Button 5 */
+.Borderwidth {
+  height: 36px;
+  width: 75px;
+  background-color: white;
+  border-radius: 18px;
+  border: solid rgb(66, 129, 254);
+  color: rgb(66, 129, 254);
+  border-width: 1px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: border-width 0.1s;
+}
+
+.Borderwidth:hover {
+  border-width: 2px;
+}
+
+.Borderwidth:active {
+  opacity: 0.5;
+  transition: opacity 0.15s;
+}

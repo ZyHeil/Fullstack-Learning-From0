@@ -1,0 +1,15 @@
+h1 {
+  text-align: center; 
+  font-family: Montserrat;
+  margin-bottom: 10px;
+}
+
+.p1 {
+  text-align: center;
+  font-family: Montserrat;
+  margin-top: 0;
+}
+
+.td {
+  text-decoration: underline;
+}

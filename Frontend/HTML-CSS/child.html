@@ -1,0 +1,21 @@
+<!-- child.html -->
+<!doctype html>
+<html>
+  <body>
+    <p>This is the embedded inner page.</p>
+
+    <!-- Your target="_parent" link goes here -->
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_parent"
+      >Click here to break out to the parent!</a
+    >
+
+    <h3>Ini Halaman di Dalam Iframe (Child)</h3>
+    <p>Klik tombol di bawah untuk melihat perbedaannya:</p>
+
+    <!-- Gagal keluar: Halaman google hanya akan terbuka DI DALAM kotak iframe kecil -->
+    <a href="https://example.com" target="_self">Buka dengan _self</a>
+    <br />
+    <!-- Berhasil keluar: Halaman google akan menghancurkan iframe dan memenuhi seluruh layar -->
+    <a href="https://example.com" target="_top">Buka dengan _top</a>
+  </body>
+</html>

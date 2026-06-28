@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      /* Pagination */
+      .But {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+        margin-bottom: 20px;
+      }
+
+      a {
+        margin-left: 10px;
+      }
+
+      /* Stretch */
+      .stre {
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 12px;
+        padding-right: 12px;
+        background-color: green;
+        border: none;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: padding 0.15s;
+        margin-bottom: 20px;
+      }
+
+      .stre:hover {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: x-large;
+      }
+
+      /* Shadow */
+      .sha {
+        background-color: green;
+        border: none;
+        color: white;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 12px;
+        padding-right: 12px;
+        font-weight: bold;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+        margin-bottom: 20px;
+      }
+
+      .sha:hover {
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+      }
+
+      .sha:active {
+        box-shadow: none;
+        transform: translate(3px, 3px);
+      }
+
+      /* Margin and Padding */
+      .mp {
+        background-color: green;
+        border: none;
+        color: white;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-right: 10px;
+
+        transition:
+          padding 0.15s,
+          margin 0.15s;
+      }
+
+      .mp:hover {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Challenge Exercises using box model:</h1>
+
+    <p>Pagination</p>
+
+    <button class="But">Back</button>
+
+    <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">1</a>
+    <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">2</a>
+    <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">3</a>
+    <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">4</a>
+    <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">5</a>
+
+    <button class="But">Next</button>
+
+    <br />
+
+    <p>Stretch</p>
+
+    <button class="stre">Stretch</button>
+
+    <br />
+
+    <!-- Shadow -->
+    <p>3D Click</p>
+    <button class="sha">Shadow</button>
+
+    <!--Margin and Padding -->
+    <p>Using both margin and padding</p>
+    <button class="mp">one</button>
+    <button class="mp">two</button>
+    <button class="mp">three</button>
+  </body>
+</html>

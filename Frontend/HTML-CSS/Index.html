@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Anjir</title>
+    <style>
+      h1 {
+        color: purple;
+      }
+      ul {
+        color: blueviolet;
+      }
+      body {
+        background-color: beige;
+      }
+    </style>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="font-family: Arial, Helvetica, sans-serif">
+    <h2>Bookmarks jir</h2>
+    <a href="#Ch5">HTML Styles</a>
+
+    <h2>HTML HEADINGS</h2>
+
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <hr/>
+
+    <h2>Paragraf</h2>
+
+    <p>This is a Paragraph</p>
+    <p title="Secret message = Suprise" style="color: red">When i see run, red!</p>
+    <p title="Bruh" style="color: gold">Black</p>
+
+    <p>
+      line Break <br />
+      Bruh <br />
+      Bruh <br />
+      Bruh <br />
+      Bruh <br />
+    </p>
+
+    <pre>
+Bruh
+    Bruh
+        Bruh
+            Bruh
+                Bruh
+    </pre>
+
+    <hr />
+
+    <h2>LIST</h2>
+
+    <p>Ordered List</p>
+    <ol>
+      <li>satu</li>
+      <li>dua</li>
+    </ol>
+
+    <p>Unordered List</p>
+    <ul>
+      <li>Kek gini</li>
+      <li>Contoh</li>
+    </ul>
+
+    <hr />
+
+    <h2>HTML IMAGES</h2>
+
+    <img
+      src="Photos/Rickroll.jpg"
+      alt="this is NOT a Rickroll"
+      width="250px"
+      height="300px"
+    />
+    <br />
+    <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc"
+      >Belajar Html</a
+    >
+    <br />
+    <img
+      src="https://www.w3schools.com/images/img_girl.jpg"
+      alt="another image"
+    />
+    <br />
+    <img src="Photos/rickroll-roll.gif" alt="Gif rikroll" />
+    <p>
+      <img
+        src="Photos/rickroll-roll.gif"
+        alt="Smiley face"
+        style="float: right; width: 42px; height: 42px"
+      />
+      The image will float to the right of the text.
+    </p>
+
+    <hr />
+
+    <h2>HTML IMAGE MAP</h2>
+    <p>Click different things/areas on an image and get different results</p>
+    <p>Tag used: image, usemap, map, name, area</p>
+    <p>How it works:</p>
+    <ol>
+      <li>You add the usemap attribute on an image element</li>
+      <li>Then create a map element and link the image using name attribute</li>
+      <li>Specify the area of the image adn the shape</li>
+    </ol>
+
+    <ul style="border: 2px solid black">
+      <li>Rect</li>
+      <li>Circle</li>
+      <li>Poly</li>
+      <li>Default - entire area of the map or region</li>
+    </ul>
+
+    <p>example</p>
+
+    <img
+      src="Photos/minecraft image map html test.jpg"
+      alt="Minecraft Picture"
+      usemap="#Minecraft"
+    />
+    <map name="Minecraft">
+      <area
+        shape="poly"
+        coords="161,59,191,60,200,95,180,105,151,105,146,74"
+        href="https://minecraft.wiki/w/Sulfur_Cube"
+        alt="Sulfur cube"
+        target="_blank"
+        title="Sulfur Cube"
+      />
+      <area
+        shape="poly"
+        coords="114,142,107,139,103,121,116,108,105,104,111,84,125,77,136,86,137,95,145,91,147,104,128,117"
+        href="https://minecraft.wiki/w/Steve"
+        alt="Steve"
+        target="_blank"
+        title="Steve"
+      />
+    </map>
+
+    <hr />
+
+    <h2 id="Ch5">HTML Styles</h2>
+
+    <p>Fonts and size</p>
+    <p style="font-family: impact; font-size: 100px">Lagi istirahat</p>
+
+    <p style="text-align: center">Center</p>
+    <p style="text-align: right">right</p>
+    <p style="text-align: left">left</p>
+
+    <hr />
+
+    <h2>HTML Formatting</h2>
+
+    <p>
+      <b>Bold</b> <br />
+      <i>Italic</i> <br />
+      <u>Underlined</u> <br />
+      <strong>Strong</strong> <br />
+      <em>emphasis</em> <br />
+      <mark>mark </mark> <br />
+      <small>small text</small> <br />
+      <del>deleted</del> <br />
+      <ins>inserted</ins> <br />
+      <sub>subscript</sub><sup>superscript</sup>
+    </p>
+    <p>This is <sub>subscripted</sub> text.</p>
+    <p>This is <sup>subscripted</sup> text.</p>
+
+    <hr />
+
+    <h2>HTML Quatation and Citation Elements</h2>
+
+    <ol>
+      <li>Blockquote for quotations</li>
+      <p>
+        The HTML blockquote element defines a section that is quoted from
+        another source.
+      </p>
+      <p>Here is a quote from WWF's website:</p>
+      <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 60 years, WWF has worked to help people and nature thrive. As the
+        world's leading conservation organization, WWF works in nearly 100
+        countries. At every level, we collaborate with people around the world
+        to develop and deliver innovative solutions that protect communities,
+        wildlife, and the places in which they live.
+      </blockquote>
+
+      <li>q for short quotations</li>
+      <p>This is a <q>Beli 76 Apel royal</q></p>
+
+      <li>abbr for abbrevations</li>
+      <p>
+        This is <abbr title="Developmental Basketball League">DBL</abbr> a Highschool Basketball League
+      </p>
+
+      <li>Address</li>
+      <p>
+        The HTML address element defines contact information (author/owner) of a
+        document or article.
+      </p>
+
+      <address>
+        Coded by yours truly <br />
+        Exampleofawebsiteduh.com <br />
+        Indonesia
+      </address>
+      <br />
+
+      <li>Cite for work title</li>
+      <p>
+        cite tag defines the title of a creative work (e.g. a book, a poem, a
+        song, a movie, a painting, a sculpture, etc.).
+      </p>
+      <p>
+        example <br />
+        <cite>The King in Yellow</cite> by Robert W. Chambers
+      </p>
+
+      <li><abbr title="Bi directional overrive">bdo</abbr></li>
+      <bdo dir="rtl">Bruh Bruh Bruh Bruh</bdo>
+      <p>
+        If your browser supports bi-directional override (bdo), the next line
+        will be written from right to left (rtl):
+      </p>
+    </ol>
+
+    <hr />
+
+    <h2>HTML COMMENTS</h2>
+
+    <p>Bet you cant see the comments, ya karena itu comment jir</p>
+    <!-- This is so sneaky omg -->
+
+    <hr />
+
+    <h2>HTML Color</h2>
+
+    <h1 style="border: 2px solid black">im white but also purple and a bit of black</h1>
+    <h1 style="background-color: black; color: aliceblue">Black Bruh</h1>
+    <p>U can also use color value with RGB</p>
+    <p>
+      RGB and RGBA Value of 0-225<br />
+      Hex #RRGGBB <br />
+      <abbr title="Hue, saturation, lightness">HSL</abbr>
+    </p>
+    <h1 style="background-color: rgb(255, 99, 71)">rgb(255, 99, 71)</h1>
+    <h1 style="background-color: #ff6347">#ff6347</h1>
+    <h1 style="background-color: hsl(9, 100%, 64%)">hsl(9, 100%, 64%)</h1>
+    <hr />
+
+    <h2>HTML CSS</h2>
+
+    <p>
+      CSS stands for Cascading Style Sheets. <br />
+      CSS saves a lot of work. It can control the layout of multiple web pages
+      all at once.
+    </p>
+    <img src="Photos/css apa tuch.png" alt="Foto apa jir" width="250" />
+
+    <p>U can use CSS by:</p>
+    <ul>
+      <li><b>Inline</b> - by using the style attribute inside HTML elements</li>
+      <p style="border: 2px solid blue">
+        This is a Blue Border using inline css
+      </p>
+      <br />
+      <li><b>Internal</b> - by using a style element in the head section</li>
+      <p>An internal CSS is used to define a style for a single HTML page.</p>
+      <!-- Check the Head of dis html file  -->
+      <li>
+        <b>External</b> - by using a < link > element to link to an external CSS
+        file
+      </li>
+      <p>
+        Using a stylesheet css file. Note that this will override any style that
+        is used with the internal method
+      </p>
+    </ul>
+
+    <p>Some property like:</p>
+    <ul>
+      <li>color</li>
+      <li>font-family</li>
+      <li>font-size</li>
+      <li>Border</li>
+      <li>padding or space between text and border</li>
+      <li>Margin or space outside of the border</li>
+    </ul>
+
+    <hr />
+
+    <h2>HTML LINKS</h2>
+
+    <p>
+      Note: A link does not have to be text. A link can be an image or any other
+      HTML element! <br />
+      Tip: Links can of course be styled with CSS, to get another look!
+    </p>
+    <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc"
+      >Ini contoh link pake < a ></a
+    >
+    <br />
+
+    <pre style="border: 2px solid">
+        The target attribute specifies where to open the linked document.
+
+        The target attribute can have one of the following values:
+
+        <b>_self - Default. Opens the document in the same window/tab 
+            as it was clicked
+
+        _blank - Opens the document in a new window or tab
+
+        _parent - Opens the document in the parent frame
+
+        _top - Opens the document in the full body of the window </b>
+    </pre>
+
+    <p>Examples :</p>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_self"
+      >Rickroll link using _self target attribute</a
+    >
+    <br />
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"
+      >Rickroll link using _blank target attribute</a
+    >
+    <br />
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_parent"
+      >Rickroll link using _parent target attribute</a
+    >
+    <br />
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_top"
+      >Rickroll link using _top target attribute</a
+    >
+    <br />
+    <!-- Ini di atas harunys ada di file "child" atau file lain kalau di pencet bakal dibuka di file ini or website ini -->
+    <p>
+      ini contoh target parent, basicly code yg diatas itu yg target parent
+      dimasukin ke file "child" atau file lain dan dibuat hubungan dengan iframe
+      element
+    </p>
+    <iframe
+      src="child.html"
+      style="width: 400px; height: 220px; border: 2px solid black"
+    ></iframe>
+    <!-- ini contoh iframenya -->
+    <br />
+
+    <p>
+      frame dan iframe adalah elemen HTML yang digunakan untuk menampilkan
+      halaman web lain di dalam sebuah halaman web.Meskipun tujuannya sama,
+      frame adalah teknologi lama yang sudah ditinggalkan, sedangkan iframe
+      adalah standar modern yang digunakan hingga saat ini.
+    </p>
+
+    <h3>Relative and Absolute URL</h3>
+    <p>
+      Contoh2 diatas sejauh ini pake absolute URLs <br />
+      Kalo relative itu buat local link sama website jadi tanpa bagian
+      "https://www"
+    </p>
+
+    <h3>LINK IMAGES</h3>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      ><img src="Photos/Rickroll.jpg" alt="Rickroll Image"
+    /></a>
+
+    <h3>Link to Email Address</h3>
+    <a href="mailto:someone@contoh.com">Send Duit pls</a>
+
+    <h3>ANJAY BUTTON LINK</h3>
+    <!-- Ini harus nambah sedikit JS code, 
+     JavaScript allows you to specify what happens at certain events, 
+     such as a click of a button -->
+    <button
+      title="Click it Nigger"
+      onclick="
+        document.location = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+      "
+    >
+      This is NOT A Rickroll
+    </button>
+
+    <h3>Link TITLE or hover tooltip</h3>
+    <a
+      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      title="Serius ini bukan rickroll jir"
+      >This aint a rickroll
+    </a>
+  </body>
+</html>

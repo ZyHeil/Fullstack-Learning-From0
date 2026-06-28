@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      /* Sub */
+      .Sub {
+        border: none;
+        background-color: red;
+        margin-right: 20px;
+        color: white;
+        padding-bottom: 9px;
+        padding-top: 9px;
+        padding-left: 18px;
+        padding-right: 18px;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: opacity 0.15s;
+      }
+
+      .Sub:hover {
+        opacity: 0.8;
+      }
+
+      .Sub:active {
+        opacity: 0.6;
+      }
+
+      /* Join */
+      .Join {
+        border: solid blueviolet;
+        border-width: 1px;
+        background-color: white;
+        color: blueviolet;
+        margin-right: 20px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        padding-left: 18px;
+        padding-right: 18px;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: background-color 0.15s;
+        transition: color 0.15s;
+        transition: opacity 0.15s;
+      }
+
+      .Join:hover {
+        background-color: blueviolet;
+        color: White;
+      }
+
+      .Join:active {
+        opacity: 0.75;
+      }
+
+      /* Tweet */
+      .Tweet {
+        background-color: rgb(29, 155, 240);
+        color: white;
+        border: none;
+        margin-right: 20px;
+        padding-bottom: 9px;
+        padding-top: 9px;
+        padding-left: 18px;
+        padding-right: 18px;
+        border-radius: 2px;
+        font-weight: bold;
+        border-radius: 18px;
+        cursor: pointer;
+        transition: background-color 0.15s;
+      }
+
+      .Tweet:hover {
+        background-color: rgb(23, 139, 216);
+      }
+
+      .Tweet:active {
+        background-color: rgb(21, 127, 198);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Using padding instead of height and width</h1>
+    <button class="Sub">SUBSCRIBE</button>
+
+    <button class="Join">JOIN</button>
+
+    <button class="Tweet">Tweet</button>
+  </body>
+</html>
